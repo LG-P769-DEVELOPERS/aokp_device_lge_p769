@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name">
+
+    <PreferenceCategory 
+    	android:key="category_audio_output"
+    	android:title="@string/audio_output_title" >
+        <com.cyanogenmod.settings.device.AudioOutputGain
+            android:key="audio_hpvol"
+            android:title="@string/audio_hpvol_title"
+            android:summary="@string/audio_hpvol_summary" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+    	android:key="category_audio_input"
+    	android:title="@string/audio_input_title" >
+        <ListPreference
+            android:key="audio_mic_preamp_gain_main"
+            android:title="@string/audio_mic_main_preamp_gain_title"
+            android:entries="@array/audio_mic_preamp_gain_entries"
+            android:entryValues="@array/audio_mic_preamp_gain_values"
+            android:defaultValue="-1" />
+        <ListPreference
+            android:key="audio_mic_preamp_gain_sub"
+            android:title="@string/audio_mic_sub_preamp_gain_title"
+            android:entries="@array/audio_mic_preamp_gain_entries"
+            android:entryValues="@array/audio_mic_preamp_gain_values"
+            android:defaultValue="-1" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

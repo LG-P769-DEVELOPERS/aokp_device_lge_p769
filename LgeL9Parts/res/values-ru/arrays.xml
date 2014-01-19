@@ -1,0 +1,74 @@
+﻿<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="gpu_overclock_entries">
+        <item>153.6 МГц (занижено)</item>
+        <item>307.2 МГц (по умолчанию)</item>
+        <item>384.0 МГц (завышено)</item>
+    </string-array>
+
+    <string-array name="iva_overclock_entries">
+        <item>332 МГц (по умолчанию)</item>
+        <item>430 МГц (завышено)</item>
+    </string-array>
+
+    <string-array name="max_sleep_frequency_entries">
+        <item>По умолчанию</item>
+        <item>200 МГц</item>
+        <item>300 МГц</item>
+        <item>600 МГц</item>
+        <item>800 МГц</item>
+        <item>1008 МГц</item>
+    </string-array>
+
+    <string-array name="bln_timeout_entries">
+        <item>Не останавливать</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>4 часа</item>
+        <item>6 часов</item>
+        <item>8 часов</item>
+        <item>10 часов</item>
+        <item>12 часов</item>
+    </string-array>
+
+    <string-array name="touch_blink_off_entries">
+        <item>3 сек</item>
+        <item>4 сек</item>
+        <item>5 сек</item>
+        <item>6 сек</item>
+        <item>7 сек</item>
+        <item>8 сек</item>
+        <item>9 сек</item>
+        <item>10 сек</item>
+        <item>15 сек</item>
+    </string-array>
+
+    <string-array name="touch_blink_on_entries">
+        <item>10 мс</item>
+        <item>20 мс</item>
+        <item>30 мс</item>
+        <item>40 мс</item>
+        <item>50 мс</item>
+        <item>60 мс</item>
+        <item>70 мс</item>
+        <item>80 мс</item>
+        <item>90 мс</item>
+        <item>100 мс</item>
+        <item>150 мс</item>
+        <item>200 мс</item>
+    </string-array>
+
+    <string-array name="audio_mic_preamp_gain_entries">
+        <item>-30 дБ (Громкий Рок Концерт)</item>
+        <item>-24 дБ (Рок Концерт)</item>
+        <item>-18 дБ (Концерт)</item>
+        <item>-12 дБ (Шумно)</item>
+        <item>-6 дБ (Обычно)</item>
+        <item>0 дБ (Чуствительно)</item>
+        <item>По Умолчанию</item>
+    </string-array>
+
+</resources>

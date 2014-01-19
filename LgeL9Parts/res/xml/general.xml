@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+    	android:title="@string/led_title" 
+    	android:key="touch_lights_preference_category">
+
+        <PreferenceScreen 
+            android:key="touch_blink_preference"
+            android:title="@string/touch_blink_title" >
+            android:key="touch_blink_title"
+            android:title="@string/touch_blink_title"
+            <intent android:action="com.cyanogenmod.settings.device.BlnActivity.MAIN" />
+        </PreferenceScreen>
+    
+    </PreferenceCategory>
+
+</PreferenceScreen>

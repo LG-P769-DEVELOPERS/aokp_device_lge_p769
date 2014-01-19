@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Настройки LGE L9</string>
+
+    <string name="general_title">ОБЩИЕ</string>
+    <string name="audio_title">ЗВУК</string>
+    <string name="performance_title">ПРОИЗВОДИТЕЛЬНОСТЬ</string>
+
+    <string name="category_general_title">Общие</string>
+    <string name="category_performance_title">Производительность</string>
+    <string name="category_audio_title">Звук</string>
+
+    <string name="button_default">По умолчанию</string>
+    <string name="button_reset">Сбросить</string>
+
+    <string name="led_title">Сенсорные Кнопки</string>
+    <string name="touch_blink_title">Подсветка уведомлений</string>
+    <string name="touch_blink_timing_title">Мигание Подсветки</string>
+    <string name="touch_blink_off_title">Время выключеной подсветки</string>
+    <string name="touch_blink_on_title">Время включеной подсветки</string>
+
+    <string name="bln_category_title">Уведомления</string>
+    <string name="bln_timeout_title">Остановить подсветку</string>
+    <string name="bln_enable_title">Разрешить</string>
+    <string name="bln_enable_summary">Включает подсветку кнопок при уведомлениях.</string>
+    <string name="bln_enabled_summary">Разрешены</string>
+    <string name="bln_disabled_summary">Запрещены</string>
+
+    <string name="gpu_overclock_title">Максимальная частота GPU</string>
+    <string name="iva_overclock_title">Максимальная частота IVA</string>
+    <string name="max_sleep_frequency_title">Максимальная частота при выкл. экране</string>
+    
+    <string name="audio_output_title">Выход</string>
+    <string name="audio_hpvol_title">Усилитесь наушников</string>
+    <string name="audio_hpvol_gain_title">Усиление</string>
+    <string name="audio_hpvol_summary">Управление аналоговым усилением. Текущее: %d дБ</string>
+    <string name="audio_hpvol_restoreonboot">Восстановить при загрузке</string>
+
+    <string name="audio_input_title">Вход</string>
+    <string name="audio_mic_main_preamp_gain_title">Усиление основного микрофона</string>
+    <string name="audio_mic_sub_preamp_gain_title">Усиление второго микрофона</string>
+    <string name="audio_mic_preamp_noboot_toast">Усиления -24 дБ и ниже не будут восстановлены после перезагрузки.</string>
+
+</resources>

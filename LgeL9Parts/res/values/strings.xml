@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Optimus&#xA0;L9 Settings</string>
+
+    <string name="general_title">GENERAL</string>
+    <string name="audio_title">AUDIO</string>
+    <string name="performance_title">PERFORMANCE</string>
+
+    <string name="category_general_title">General</string>
+    <string name="category_performance_title">Performance</string>
+    <string name="category_audio_title">Audio</string>
+
+    <string name="button_default">Default</string>
+    <string name="button_reset">Reset</string>
+
+    <string name="led_title">Lights</string>
+    
+    <string name="touch_blink_title">Notification Lights</string>
+
+    <string name="bln_category_title">Notifications</string>
+    <string name="bln_timeout_title">Lights Timeout</string>
+    <string name="bln_enable_title">Enable</string>
+    <string name="bln_enable_summary">Enables notification LED lights.</string>
+    <string name="bln_enabled_summary">Enabled</string>
+    <string name="bln_disabled_summary">Disabled</string>
+    
+    <string name="touch_blink_timing_title">Light Pulse Timing</string>
+    <string name="touch_blink_off_title">Lights Off Time</string>
+    <string name="touch_blink_on_title">Lights On Time</string>
+
+    <string name="gpu_overclock_title">Maximum GPU Clock Speed</string>
+    <string name="iva_overclock_title">Maximum IVA Clock Speed</string>
+    <string name="max_sleep_frequency_title">Maximum Screen-Off Frequency</string>
+
+    <string name="audio_output_title">Output</string>
+    <string name="audio_hpvol_title">Headphone Amplifier</string>
+    <string name="audio_hpvol_gain_title">Gain</string>
+    <string name="audio_hpvol_summary">Controls Analog Gain. Current: %d dB</string>
+    <string name="audio_hpvol_restoreonboot">Restore on Boot</string>
+
+    <string name="audio_input_title">Input</string>
+    <string name="audio_mic_main_preamp_gain_title">Main Microphone Preamplifier Gain</string>
+    <string name="audio_mic_sub_preamp_gain_title">Sub Microphone Preamplifier Gain</string>
+    <string name="audio_mic_preamp_noboot_toast">Note: Gains -24 dB and below will not be restored after reboot.</string>
+
+</resources>
